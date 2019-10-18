@@ -28,7 +28,7 @@ combination.each do |winning_combination|
     position_3 = board[win_index_3] # load the value of the board at win_index_3
 
 
-    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+    if winning_combination== top_row_win
       return win_combination # return the win_combination indexes that won.
     else
       return false
