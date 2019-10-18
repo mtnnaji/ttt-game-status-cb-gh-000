@@ -14,8 +14,8 @@ def position_taken?(board, index)
 end
 
 def won?(board)
-WIN_COMBINATIONS.each do |combination|
-combination.each do |winning_combination|
+
+WIN_COMBINATIONS.each do |winning_combination|
 
 
 
@@ -32,5 +32,5 @@ combination.each do |winning_combination|
       return winning_combination # return the win_combination indexes that won.
     end
   end
-  end
 end
+
