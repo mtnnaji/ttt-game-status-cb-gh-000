@@ -20,7 +20,6 @@ for  win_combination in WIN_COMBINATIONS do
 
 
 
-
     win_index_1 = combination[0]
     win_index_2 = combination[1]
     win_index_3 = combination[2]
