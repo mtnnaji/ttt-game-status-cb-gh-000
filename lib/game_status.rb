@@ -29,7 +29,7 @@ for  win_combination in WIN_COMBINATIONS do
     position_3 = board[win_index_3] # load the value of the board at win_index_3
 
 # return the win_combination indexes that won.
-    if [win_combination[0],win_combination[1],win_combination[2]] == middle_row_win
+    if win_combination == middle_row_win
       return win_combination
     else
       return false
