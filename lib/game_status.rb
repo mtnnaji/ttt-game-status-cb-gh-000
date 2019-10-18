@@ -33,6 +33,6 @@ for  win_combination in WIN_COMBINATIONS do
     else
       return false
     end
-  
+
   end
 end
