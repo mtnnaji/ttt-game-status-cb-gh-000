@@ -20,9 +20,9 @@ for  win_combination in WIN_COMBINATIONS do
 
 
 
-    win_index_1 = combination[0]
-    win_index_2 = combination[1]
-    win_index_3 = combination[2]
+    win_index_1 = combination[1]
+    win_index_2 = combination[4]
+    win_index_3 = combination[7]
 
     position_1 = board[win_index_1] # load the value of the board at win_index_1
     position_2 = board[win_index_2] # load the value of the board at win_index_2
