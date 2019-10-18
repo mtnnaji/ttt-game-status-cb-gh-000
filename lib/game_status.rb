@@ -15,7 +15,8 @@ end
 
 def won?(board)
 
-WIN_COMBINATIONS.each do |winning_combination|
+WIN_COMBINATIONS.each do |combination|
+  for winning_combination in combination do
 
 
 
@@ -31,5 +32,6 @@ WIN_COMBINATIONS.each do |winning_combination|
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return winning_combination # return the win_combination indexes that won.
     end
+  end  
   end
 end
