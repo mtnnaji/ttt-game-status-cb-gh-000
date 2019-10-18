@@ -32,6 +32,6 @@ for winning_combination in WIN_COMBINATIONS do
       return winning_combination # return the win_combination indexes that won.
     else
       return false
-    end  
+    end
   end
 end
