@@ -30,6 +30,7 @@ for winning_combination in WIN_COMBINATIONS do
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return winning_combination # return the win_combination indexes that won.
+    end
     if position_taken == false
       return false
     end
