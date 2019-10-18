@@ -37,4 +37,3 @@ for  win_combination in WIN_COMBINATIONS do
 
   end
   end
-end
