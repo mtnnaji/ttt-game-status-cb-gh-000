@@ -19,9 +19,10 @@ for  win_combination in WIN_COMBINATIONS do
 
 
 
-    win_index_1 = win_combination[0]
-    win_index_2 = win_combination[1]
-    win_index_3 = win_combination[2]
+
+    win_index_1 = combination[1]
+    win_index_2 = combination[4]
+    win_index_3 = combination[7]
 
     position_1 = board[win_index_1] # load the value of the board at win_index_1
     position_2 = board[win_index_2] # load the value of the board at win_index_2
@@ -30,9 +31,12 @@ for  win_combination in WIN_COMBINATIONS do
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return win_combination # return the win_combination indexes that won.
+    if [win_combination[0],win_combination[1],win_combination[2]] == middle_row_win
+      return win_combination
     else
       return false
     end
-
+    
+  end
   end
 end
