@@ -15,14 +15,13 @@ end
 
 def won?(board)
 for  win_combination in WIN_COMBINATIONS do
-  for combination in win_combination do
 
 
 
 
-    win_index_1 = combination[1]
-    win_index_2 = combination[4]
-    win_index_3 = combination[7]
+    win_index_1 = win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_3 = win_combination[2]
 
     position_1 = board[win_index_1] # load the value of the board at win_index_1
     position_2 = board[win_index_2] # load the value of the board at win_index_2
@@ -34,6 +33,6 @@ for  win_combination in WIN_COMBINATIONS do
     else
       return false
     end
-  end
+  
   end
 end
